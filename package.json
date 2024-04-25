@@ -1,0 +1,20 @@
+{
+  "name": "quora",
+  "version": "1.0.0",
+  "description": "Quora Backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "author": "Akd",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "http-status-codes": "^2.3.0",
+    "mongoose": "^8.3.2",
+    "nodemon": "^3.1.0",
+    "zod": "^3.22.4"
+  }
+}
